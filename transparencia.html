@@ -1,0 +1,275 @@
+<!-- Alejandro Calvo Navarro -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSabiduría Rural</title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <style>
+        .nav-link {
+            color: #2E5632 !important; 
+            font-weight: bold;
+        }
+
+        .nav-link:hover,
+        .nav-link:focus {
+            color: #CBA316 !important; 
+        }
+
+        .nav-link.active {
+            color: #2E5632 !important; 
+        }
+        .footer {
+            background-color: #414141;
+            color: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+        }
+
+        body {
+            background-color: #f9f8f3; 
+            font-family: 'Arial', sans-serif;
+            color: #2e5632; 
+        }
+        banner h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .banner h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .banner {
+            background-image: url('img/7.png');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 3rem 1rem;
+            color: #2E5632;
+        }
+
+        /* Tabla de transparencia */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #336633;
+            color: white;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 12px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .section-content {
+            padding: 3rem 1rem;
+        }
+        .custom-btn {
+            background-color: #ffb347; 
+            color: #fff;
+            border: none;
+        }
+        .custom-btn:hover {
+            background-color: #ff9240; 
+        }
+        .image-card img {
+            border-radius: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #F9F8F3; border-bottom: 2px solid #2E5632;">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" width="100" height="100" alt="Logo EcoSabiduría Rural">
+            </a>
+
+            <!-- Botón de Menú Responsive -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Contenido del Menú -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Opciones de Navegación -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="index.html" style="font-weight: bold;">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: bold;">Iniciativas</a>
+                        <ul class="dropdown-menu" style="background-color: #F9F8F3; border: 1px solid #2E5632;">
+                            <li><a class="dropdown-item text-dark" href="huerto.html" style="background-color: #F9F8F3;">Huerto Comunitario</a></li>
+                            <li><a class="dropdown-item text-dark" href="mercadillo.html" style="background-color: #F9F8F3;">Participación en el Mercadillo</a></li>
+                            <li><a class="dropdown-item text-dark" href="formacion.html" style="background-color: #F9F8F3;">Formación</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="actuacion.html" style="font-weight: bold;">¿Dónde actuamos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="transparencia.html" style="font-weight: bold;">Transparencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="nosotros.html" style="font-weight: bold;">¿Quiénes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="contacto.html" style="font-weight: bold;">Contacto</a>
+                    </li>
+                </ul>
+
+                <!-- Barra de Búsqueda -->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" style="border: 1px solid #2E5632;">
+                    <button class="btn" style="color: #FFF; background-color: #2E5632; border: none;" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Banner -->
+    <div class="banner">
+        <div class="content">
+            <div style="background-color: #C9F8C5; display: inline-block;">
+                <h1>Transparencia</h1>
+                <p class="lead">Nuestros recursos, tu confianza</p>
+            </div>    
+        </div>
+    </div>
+
+
+    <div class="container section-content">
+        <div class="row align-items-start">
+            <!-- Columna de texto -->
+            <div class="col-md-6">
+                <p>Los fondos con los que contamos provienen principalmente de grandes empresas como <strong>Triodos Bank</strong> que cuenta con financiaciones a empresas que contribuyen a reducir el impacto ambiental. </p>
+                <p>Por otro lado, contamos con las ayudas económicas que ofrecen las entidades públicas, como la <strong> Junta de Andalucía </strong> que  ofrece ayuda a personas jóvenes andaluzas o residentes para poner en funcionamiento proyectos empresariales en Andalucía (Programa Innoactiva).</p>
+                <p>En cuanto a ayudas que recibimos por parte del <strong> Ayuntamiento de Montejicar </strong>, encontramos que el Ministerio de industria, comercio y turismo ofrece ayuda a mercados rurales sostenibles, que es una de las financiaciones con la que podemos contar aunque ésta primeramente tiene tiene que ser solicitada a nuestro ayuntamiento y que éste sea el que la solicite al ministerio.</p>
+                <p>Otras instituciones como el <strong>Ministerio de Economía, Comercio y Empresa</strong>, ofrece las ayudas <strong>ICO</strong>, ayudas que son del Instituto de Crédito Oficial. El <strong>ICO</strong> financia proyectos de inversión, como el nuestro en este caso, pero también financia necesidades de liquidez de personas trabajadoras autónomas y empresas.</p>
+                <p>Otras fuentes de ingresos, aunque con una cuantía menos considerable, es la cuota de los <strong>socios</strong> del proyecto, es decir cualquier persona puede formar parte del proyecto apoyándolo con la cuota anual de socio.</p>
+                <p>Ocasionalmente se realizan talleres extras al proyecto, en los que quien quiera puede participar, sea socio o no del proyecto, pagando la cantidad monetaria que se haya estimado para realizar el taller.</p>
+                <p>Por último, como fuente de ingresos también contaremos con el dinero recaudado todos los jueves en el mercado del municipio.</p>
+            </div>
+    
+            <!-- Columna de tabla -->
+            <div class="col-md-6">
+                <table border="1" style="border-collapse: collapse; width: 100%; text-align: left;">
+                    <thead>
+                        <tr>
+                            <th colspan="2" style= "text-align: center;">Gastos</th>
+                            <th colspan="2" style=" text-align: center;">Ingresos</th>
+                        </tr>
+                        <tr>
+                            <th>Concepto</th>
+                            <th>Coste (€)</th>
+                            <th>Concepto</th>
+                            <th>Importe (€)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Gastos -->
+                        <tr>
+                            <td>Materiales</td>
+                            <td>1035,20€</td>
+                            <td>Cuota Anual de Socios (80 socios a 50€)</td>
+                            <td>4000€</td>
+                        </tr>
+                        <tr>
+                            <td>Equipamiento</td>
+                            <td>205€</td>
+                            <td>Ganancias mercadillo</td>
+                            <td>6700€</td>
+                        </tr>
+                        <tr>
+                            <td>Publicidad y promoción</td>
+                            <td>1000€</td>
+                            <td rowspan="6">Financiaciones:</td>
+                            <td>5200€ (Innoactiva)</td>
+                        </tr>
+                        <tr>
+                            <td>Mantenimiento de huertos</td>
+                            <td>1245,50€</td>
+                            <td>2700€ (Industria y PYME)</td>
+                        </tr>
+                        <tr>
+                            <td>Actividades educativas</td>
+                            <td>1500€</td>
+                            <td>1200€ (TriodosBank)</td>
+                        </tr>
+                        <tr>
+                            <td>Transporte</td>
+                            <td>807,04€</td>
+                            <td>2200€ (ICO)</td>
+                        </tr>
+                        <tr>
+                            <td>Educador Social</td>
+                            <td>19600€</td>
+                            <td>3500€ (SAE)</td>
+                        </tr>
+                        <tr>
+                            <td>Costes administrativos</td>
+                            <td>1200€</td>
+                            <td>5500€ (Ayuntamiento de Montejícar)</td>
+                        </tr>
+                        <tr>
+                            <td>Otros gastos</td>
+                            <td>500€</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <!-- Totales -->
+                        <tr>
+                            <td style="font-weight: bold;">TOTAL</td>
+                            <td style="font-weight: bold;">27092,74€</td>
+                            <td style="font-weight: bold;">TOTAL</td>
+                            <td style="font-weight: bold;">31000€</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4" style="text-align: right; font-weight: bold; background-color: #f3f3f3;">Balance positivo: 3907,26€</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>&copy; 2024 EcoSabiduría Rural. Todos los derechos reservados.</p>
+    </footer>
+    
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

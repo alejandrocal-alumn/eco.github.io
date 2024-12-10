@@ -1,0 +1,176 @@
+<!-- Alejandro Calvo Navarro -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <title>EcoSabiduría Rural</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+        .nav-link {
+            color: #2E5632 !important; 
+            font-weight: bold;
+        }
+
+        .nav-link:hover,
+        .nav-link:focus {
+            color: #CBA316 !important; 
+        }
+
+        .nav-link.active {
+            color: #2E5632 !important; 
+        }
+
+        .footer {
+            background-color: #414141;
+            color: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        body {
+            background-color: #f9f8f3; 
+            font-family: 'Arial', sans-serif;
+            color: #2e5632; 
+        }
+        .banner {
+            background-image: url('img/7.png');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 3rem 1rem;
+            color: #2E5632;
+        }
+        .banner h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #336633;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .image-gallery img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-section {
+            padding: 2rem 1rem;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 3rem;
+        }
+            
+    </style>
+</head>
+<body>
+    
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #F9F8F3; border-bottom: 2px solid #2E5632;">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" width="100" height="100" alt="Logo EcoSabiduría Rural">
+            </a>
+
+            <!-- Botón de Menú Responsive -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Contenido del Menú -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Opciones de Navegación -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="index.html" style="font-weight: bold;">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: bold;">Iniciativas</a>
+                        <ul class="dropdown-menu" style="background-color: #F9F8F3; border: 1px solid #2E5632;">
+                            <li><a class="dropdown-item text-dark" href="huerto.html" style="background-color: #F9F8F3;">Huerto Comunitario</a></li>
+                            <li><a class="dropdown-item text-dark" href="mercadillo.html" style="background-color: #F9F8F3;">Participación en el Mercadillo</a></li>
+                            <li><a class="dropdown-item text-dark" href="formacion.html" style="background-color: #F9F8F3;">Formación</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="actuacion.html" style="font-weight: bold;">¿Dónde actuamos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="transparencia.html" style="font-weight: bold;">Transparencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="nosotros.html" style="font-weight: bold;">¿Quiénes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="contacto.html" style="font-weight: bold;">Contacto</a>
+                    </li>
+                </ul>
+
+                <!-- Barra de Búsqueda -->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" style="border: 1px solid #2E5632;">
+                    <button class="btn" style="color: #FFF; background-color: #2E5632; border: none;" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Banner -->
+    <div class="banner">
+        <div class="content">
+            <div style="background-color: #C9F8C5; display: inline-block;">
+                <h1>Huerto Comunitario</h1>
+                <p class="lead">Sostenibilidad, comunidad y tradición</p>
+            </div>    
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="content-section">
+        <p>Los huertos sostenibles son los que van a hacer que el proyecto salga adelante. En esta actividad contaremos con los mayores del pueblo con conocimientos de la agricultura tradicional, que serán los encargados de compartir sus sabidurías sobre prácticas sostenibles. ¿Con quien comparten estas sabidurías? Con los menores de 12 a 16 años participantes del proyecto. Estos deberán cooperar con el mayor asignado, ya que cada menor estará apadrinado por un mayor, realizando las prácticas agrícolas que queden pactadas. Entre todos los participantes, el huerto se llevará a cabo.</p>
+
+        <p>Involucramos a las personas mayores ya que son una gran fuente de sabiduría y experiencia en este ámbito, de esta manera educarán a las nuevas generaciones sobre técnicas agrícolas tradicionalmente utilizadas en estas áreas. Así mismo, crearemos un espacio de encuentro intergeneracional fomentando la cohesión social de la comunidad.</p>
+    </div>
+
+    <!-- Galería de imágenes -->
+    <div class="section-title">Galería de Imágenes</div>
+    <div class="image-gallery">
+        <img src="img/8.jpg" alt="Huerto 1">
+        <img src="img/9.jpg" alt="Huerto 2">
+        <img src="img/10.jpg" alt="Huerto 3">
+        <img src="img/11.jpg" alt="Huerto 4">
+        <img src="img/12.jpg" alt="Huerto 5">
+        <img src="img/13.jpg" alt="Huerto 6">
+    </div>
+
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>&copy; 2024 EcoSabiduría Rural. Todos los derechos reservados.</p>
+    </footer>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
